@@ -1,0 +1,24 @@
+{
+  "name": "tdd-node-mocha",
+  "version": "1.0.0",
+  "description": "A methodology for writing the tests first for a given module and for the actual implementation afterward\r 1. writing failing tests\r 2. writing code that satisfies our tests\r 3. refactor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donlokuge/tdd-node-mocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donlokuge/tdd-node-mocha/issues"
+  },
+  "homepage": "https://github.com/donlokuge/tdd-node-mocha#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
